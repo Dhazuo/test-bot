@@ -15,5 +15,7 @@ use Inertia\Inertia;
 |
 */
 
+Route::get('/', [\App\Http\Controllers\Webpage\MainController::class, 'index'])->name('index');
+
 Route::post('/bot', [\App\Http\Controllers\MainController::class, 'contact'])->name('contact');
 Route::post('/webhook', [\App\Http\Controllers\WebhookController::class, 'contact'])->name('webhook');

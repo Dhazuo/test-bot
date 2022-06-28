@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo-shadow {
+    box-shadow: 3px -3px 22px -4px #bb271d;
+}
+
+
